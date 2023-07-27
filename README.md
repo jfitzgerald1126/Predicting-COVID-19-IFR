@@ -11,13 +11,13 @@ The project utilizes Python and several Python libraries, such as "matplotlib" a
 
 3. Data Visualization: The "data_visualization.py" file handles the visualization of the data and models from the "Model" class in an interactive manner. The "Plot" class visualizes the data using the "matplotlib" library and provides an interactive window where the user can toggle the visibility of plots for different countries. This interactive visualization helps users understand the correlation between vaccination rates and infection fatality rates for selected countries.
 
-## How to Use the Project
+## Usage
 1. Clone this repository to your local machine.
 2. Ensure you have Python and the required libraries installed (e.g., "matplotlib" and "numpy").
 3. Make sure the "condensed_data.csv" file is present in the project directory.
 4. Customize the countries you want to model by changing the Country input strings in the "main.py" file (e.g., Country('Germany', csv_location)).
 5. Run "main.py" to see the interactive visualization of the regression models for the selected countries.
 
-## Inspiration
+## Acknowledgements
 The project takes inspiration from the COVID-19 Data Explorer by Our World in Data (https://ourworldindata.org/explorers/coronavirus-data-explorer). The goal is to provide similar interactive visualizations for modelling the IFR based on the percentage of the population vaccinated.
 
